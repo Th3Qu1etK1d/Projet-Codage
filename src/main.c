@@ -1,13 +1,9 @@
-#include <stdio.h>  
-
-void text ()
-{
-	printf("Voici le texte");
-}
+#include <stdio.h>
+#include "foo.h"
 
 int main()
 {
-	text();
+	foo();
 	return 0;
 }
 
